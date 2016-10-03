@@ -1,50 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Mega great website</title>
-	<link rel="stylesheet" type="text/css" href="./style.css">
-	<link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
-</head>
-<body>
-	<div class="container-fluid">
-		<div class="col-md-12 row-height">
-			<h1> Hello World </h1>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Responsive bootstrap grid</title>
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href=".bootstrap/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Hello world!</h1>
+			</div>		
+			<div class="row">
+				<div class="col-md-4 bg-cover">
+					<h2 id="about">About</h2>
+				</div>
+				<div class="col-md-4 bg-cover">
+					<h2 id="project">Projects</h2>
+				</div>
+				<div class="col-md-4 bg-cover">
+					<h2 id="contact">Contact</h2>
+				</div>
+				<div class="col-md-4">
+					<p id="hello">hello</p>
+				</div>
+				<div class="col-md-4">
+					<p id="project-list">lslll</p>
+				</div>
+				<div class="col-md-4">
+					<p id="contact-info">lslll</p>
+				</div>
+			</div>
 		</div>
-		<div="table-responsive">
-			<table class="table table-hover">
-				<div class="row">
-    				<div class="col-md-4 row-height">
-    					<div class="hovereffect">
-        					<img class="img-responsive" src="photos/kazkas.jpg" alt="">
-           						<div class="overlay">
-                					<h2 id="profile">Profile</h2>
-									<p id="text">Hello, this is stuff about me</p>
-           						</div>
-   						</div>
-    				</div>
-					<div class="col-md-4 row-height">
-    					<div class="hovereffect">
-        					<img class="img-responsive" src="photos/kazkas.jpg" alt="">
-           						<div class="overlay">
-                					<h2 id="projects">Projects</h2>
-           						</div>
-   						</div>
-    				</div>
-    				<div class="col-md-4 row-height">
-    					<div class="hovereffect">
-        					<img class="img-responsive" src="photos/kazkas.jpg" alt="">
-           						<div class="overlay">
-                					<h2>Contact</h2>
-           						</div>
-   						</div>
-    				</div>
-    				</div>
-    			</div>
-    		</table>
-    	</div>
-    </div>
-	<script src="./jquery-3.1.1.min.js"></script>
-	<script src="./main.js"></script>
-	<script src="./bootstrap/js/bootstrap.min.js"></script>
-</body>
+		<script src="./jquery-3.1.1.min.js"></script>
+		<script src="./main.js"></script>
+		<script src="./bootstrap/js/bootstrap.min.js"></script>
+	</body>
 </html>

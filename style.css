@@ -72,8 +72,8 @@ h1 {
   width: calc(100% + 80px);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-40px,0,0);
-  transform: translate3d(-40px,0,0);
+  -webkit-transform: translate3d(0px,0,0);
+  transform: translate3d(0px,0,0);
 }
 
 .hovereffect h2 {
@@ -82,7 +82,7 @@ h1 {
   position: relative;
   font-size: 17px;
   background-color: transparent;
-  /*padding: 15% 0 10px 0;*/
+  padding: 15% 0 10px 0;
   text-align: left;
 }
 
@@ -98,8 +98,8 @@ h1 {
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-20px,0,0);
-  transform: translate3d(-20px,0,0);
+  -webkit-transform: translate3d(0px,0,0);
+  transform: translate3d(0px,0,0);
 }
 
 .hovereffect a, .hovereffect p {

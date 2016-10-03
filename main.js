@@ -7,6 +7,6 @@ $(function() {
 	'third line']
 })
 
-$ ( '#profile' ).on('click', function() {
-	$(' #profile ').text('this is sometext about me')
+$ ( '#projects' ).on('click', function() {
+	$(' #projects ').text('some projectsss')
 })

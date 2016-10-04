@@ -52,6 +52,11 @@ h5 {
 	border: 1px solid black;
 	margin-right: 2px;
 	margin-left: 2px;
+	margin-bottom: 15px;
+}
+
+#middle-title {
+	padding-top: 90px;
 }
 
 .glyphicon-envelope {

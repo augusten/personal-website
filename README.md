@@ -2,6 +2,6 @@
 
 The directory contains the files of my personal website.
 
-The website will include contact and project information. Yayyy!
+The website includes a little bit about me, contact and project information. 
 
-**Trying** _out_ **if _markdown_** works.
+The repository contains only the backbone structure of the website.

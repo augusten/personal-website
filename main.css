@@ -39,6 +39,14 @@ h2 {
 	background: url(./images/kazkas.jpg);
 }*/
 
+.clickspot {
+	width: 20%;
+}
+
+#content {
+	width: 80%;
+}
+
 img {
 	height: 100px;
 	border-radius: 10px;

@@ -7,13 +7,13 @@ $(document).ready(function() {
 })
 
 $( 'h2#about' ).click(function(){
-	$( 'p#hello' ).slideToggle( 'slow' );
+	$( 'p#hello' ).slideToggle( 'slow' )
 })
 
 $( 'h2#project' ).click(function( ){
-	$( '.project-list' ).slideToggle( 'slow' );
+	$( '.project-list' ).slideToggle( 'slow' )
 })
 
 $( 'h2#contact' ).click(function( ){
-	$( 'p#contact-info' ).slideToggle( 'slow' );
+	$( 'p#contact-info' ).slideToggle( 'slow' )
 })

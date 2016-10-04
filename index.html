@@ -4,7 +4,8 @@
 		<meta charset="utf-8"/>
 		<title>Auguste's Personal Website</title>
 		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="./main.css">
+		<link rel="stylesheet" href="./lightbox2-master/dist/css/lightbox.min.css">
 	</head>
 	<body>
 
@@ -14,33 +15,34 @@
 					<h1>Hello world!</h1>
 			</div>		
 			<div class="row">
-				<div class="col-md-4" id="bg-cover-two">
+				<div class="col-md-4" id="bg-cover-one">
 					<h2 id="about">About</h2>
 				</div>
+				
 				<div class="col-md-4" id="bg-cover-two">
 					<h2 id="project">Projects</h2>
 				</div>
+
 				<div class="col-md-4" id="bg-cover-three">
 					<h2 id="contact">Contact</h2>
 				</div>
+				
 				<div class="col-md-4">
 					<p id="hello">hello</p>
 				</div>
 				<div class="col-md-4">
 					<p class="project-list">lslll</p>
-
 					<div class="row inside-content">
-						<div class="col-md-4 project-list">
-							<img src="./images/back.jpg">
+						<div class="col-md-4 project-list images">
+							<a href="./images/back.jpg" data-lightbox="image-1"><img src="./images/back.jpg"></a>
 						</div>
-						<div class="col-md-4 project-list">
-							<img src="./images/back2.jpg">
+						<div class="col-md-4 project-list images">
+							<a href="./images/back2.jpg" data-lightbox="image-2"><img src="./images/back2.jpg"></a>
 						</div>
-						<div class="col-md-4 project-list">
-							<img src="./images/back3.jpg">
+						<div class="col-md-4 project-list images">
+							<a href="./images/back3.jpg" data-lightbox="image-3"><img src="./images/back3.jpg"></a>
 						</div>
 					</div>
-
 				</div>
 				<div class="col-md-4">
 					<p id="contact-info">lslll</p>
@@ -50,5 +52,6 @@
 		<script src="./jquery-3.1.1.min.js"></script>
 		<script src="./main.js"></script>
 		<script src="./bootstrap/js/bootstrap.min.js"></script>
-	</body>
+ 		<script src="./lightbox2-master/dist/js/lightbox.min.js"></script>
+ 	</body>
 </html>

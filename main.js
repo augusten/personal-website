@@ -1,20 +1,19 @@
 $(document).ready(function() {
-	$( 'p#hello' ).hide( )
+	$( '.profile' ).hide( )
 	$( '.project-list' ).hide( )
-	$( 'p#contact-info' ).hide( )
-	$( 'h1' ).fadeOut( )
+	$( '.contact-info' ).hide( )
+	$( 'h1' ).hide( )
 	$( 'h1' ).fadeIn( 'slow' )
 })
 
 $( '#bg-cover-one' ).click(function( ){
-	$( '#hello' ).slideToggle( 'slow' )
+	$( '.profile' ).slideToggle( 'slow' )
 })
-
 
 $( '#bg-cover-two' ).click(function( ){
 	$( '.project-list' ).slideToggle( 'slow' )
 })
 
 $( '#bg-cover-three' ).click(function( ){
-	$( 'p#contact-info' ).slideToggle( 'slow' )
+	$( '.contact-info' ).slideToggle( 'slow' )
 })

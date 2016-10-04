@@ -1,54 +1,60 @@
 body {
-	background: #FAEBD7;
+    background: linear-gradient(rgba(350,350,350,0.75),rgba(350,350,350,0.75)),
+                url("images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 h1 {
-	margin-top: 80px;
+	margin-top: 30px;
 	text-align: center;
-	font-size: 200;
+	font-size: 3em;
+	font-family: "Lucida Console", Monaco, monospace;
+	border: 1px solid black;
+	padding: 40px;
 }
 
 h2 {
 	text-align: center;
-	font-size: 30;
+	font-size: 20;
 	font-family: "Lucida Console", Monaco, monospace;
 	color: white;
 }
-
-/*#bg-cover-one, #bg-cover-two, #bg-cover-three {
-	margin-top: 100px;
-	margin-bottom: 10px;
-    border: 10px solid white;
-	height: 300px;
-	padding: 200px 20px 10px 10px;
-	background-size: 97% 97%;
-	background-repeat: no-repeat;
-	border-radius: 10px;
-}
-
-#bg-cover-one {
-	background: url(./images/kazkas.jpg);
-}
-
-
-#bg-cover-two {
-	background: url(./images/kazkas.jpg);
-}
-
-#bg-cover-three {
-	background: url(./images/kazkas.jpg);
-}*/
 
 img {
 	height: 100px;
 	border-radius: 10px;
 }
 
-.inside-content {
-	border: 1px solid black;
+p, ul {
+    margin: 20px 20px 20px 20px;
+    text-align: justify;
+    font-size: 0.9em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-span.glyphicon-envelope {
+h5 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.1em;
+}
+
+.icon {
+	margin: 20px 20px 20px 20px;
+	width: 30px;
+	max-height: 30px;
+}
+
+.inside-title {
+	text-align: center;
+	margin: 1em 1em 1em 1em;
+}
+
+.inside-content {
+	border: 1px solid black;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.glyphicon-envelope {
     min-height: 20px;
     font-size: 15;
     width: 0.5em;
@@ -60,45 +66,44 @@ span.glyphicon-envelope {
 }
 
 #bg-cover-one {
-	margin-top: 100px;
+	margin-top: 30px;
 	margin-bottom: 10px;
-	background: url(./images/kazkas.jpg);
-    border: 10px solid #FAEBD7;
+	background: url(./images/back-one.jpg);
 	height: 300px;
+    border: 10px solid transparent;
 	padding: 200px 20px 10px 10px;
 	background-size: 97% 97%;
 	background-repeat: no-repeat;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #bg-cover-two {
-	margin-top: 100px;
+	margin-top: 30px;
 	margin-bottom: 10px;
-    border: 10px solid #FAEBD7;
-	background: url(./images/kazkas.jpg);
+    border: 10px solid transparent;
+	background: url(./images/back-two.jpg);
 	height: 300px;
 	padding: 200px 20px 10px 10px;
 	background-size: 97% 97%;
 	background-repeat: no-repeat;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #bg-cover-three {
-	margin-top: 100px;
+	margin-top: 30px;
 	margin-bottom: 10px;
-    border: 10px solid #FAEBD7;
-	background: url(./images/kazkas.jpg);
+    border: 10px solid transparent;
+	background: url(./images/back-three.jpg);
 	height: 300px;
 	padding: 200px 20px 10px 10px;
 	background-size: 97% 97%;
 	background-repeat: no-repeat;
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 #bg-cover-one:hover, #bg-cover-two:hover, #bg-cover-three:hover {
 	opacity: 0.5;
-}
-
-#about, #project, #contact {
-	cursor: pointer;
 }

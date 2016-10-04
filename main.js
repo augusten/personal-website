@@ -6,14 +6,15 @@ $(document).ready(function() {
 	$( 'h1' ).fadeIn( 'slow' )
 })
 
-$( 'h2#about' ).click(function(){
-	$( 'p#hello' ).slideToggle( 'slow' )
+$( '#bg-cover-one' ).click(function( ){
+	$( '#hello' ).slideToggle( 'slow' )
 })
 
-$( 'h2#project' ).click(function( ){
+
+$( '#bg-cover-two' ).click(function( ){
 	$( '.project-list' ).slideToggle( 'slow' )
 })
 
-$( 'h2#contact' ).click(function( ){
+$( '#bg-cover-three' ).click(function( ){
 	$( 'p#contact-info' ).slideToggle( 'slow' )
 })
